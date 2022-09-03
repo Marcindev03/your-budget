@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "yourbudget",
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "backend",
+      "common",
+      "core",
+      "web"
+    ]
+  },
+  "scripts": {
+    "dev:web": "cd web && npm run dev",
+    "build:web": "cd web && npm run build",
+    "start:web": "cd web && npm run start",
+    "dev:backend": "cd backend && npm run develop",
+    "build:backend": "cd backend && NODE_ENV=production npm run build",
+    "start:backend": "cd backend && NODE_ENV=production npm start"
+  }
+}

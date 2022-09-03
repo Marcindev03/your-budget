@@ -1,0 +1,9 @@
+{
+  "name": "@yourbudget/common",
+  "main": "index.js",
+  "description": "common",
+  "version": "1.0.0",
+  "dependencies": {
+    "@yourbudget/core": "*"
+  }
+}
