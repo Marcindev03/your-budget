@@ -9,11 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
+    "@yourbudget/common": "*",
+    "@yourbudget/core": "*",
     "next": "12.2.5",
+    "next-compose-plugins": "^2.2.1",
+    "next-redux-wrapper": "^7.0.5",
+    "next-transpile-modules": "^9.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "@yourbudget/core": "*",
-    "@yourbudget/common": "*"
+    "react-redux": "^8.0.2"
   },
   "devDependencies": {
     "@types/node": "18.7.14",
